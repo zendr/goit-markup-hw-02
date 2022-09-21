@@ -1,0 +1,23 @@
+body {
+
+}
+
+/*Верхня ліня*/
+.logo {
+    color:#2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-black {
+    color: black;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+}
+
+/*Шапка*/
