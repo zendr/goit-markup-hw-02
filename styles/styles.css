@@ -26,13 +26,14 @@ color: black;
     font-weight: 500;
     font-size: 14px;
  }
- .top-nav:hover{
+ .top-nav:hover,
+ .top-nav:focus,
+ .top-adr:hover,
+ .top-adr:focus{
      color: #2196F3;
  }
-.top-adr:hover {
-    color: #2196F3;
-}
-/*Шапка*/
+
+ /*Шапка*/
 .solution {
     background: #2F303A;
 }
@@ -54,6 +55,7 @@ color: black;
     font-size: 16px;
     color: #FFFFFF;
 }
+
 /*Особливості*/
 .features-title {
     width: 270px;
@@ -68,6 +70,7 @@ color: black;
     line-height: 24px;
     color: #757575;
 }
+
 /*Чим ми займаємось*/
 .what-we-do-text {
     font-weight: 700;
@@ -75,6 +78,7 @@ color: black;
     line-height: 42px;
     text-align: center;
 }
+
 /*Наша команда*/
 .team {
     background: #F5F4FA
@@ -96,6 +100,7 @@ color: black;
     line-height: 19px;
     color: #757575;
 }
+
 /*Футер*/
 .footer {
     background-color: #2F303A;
@@ -125,6 +130,12 @@ color: black;
         line-height: 24px;
         color: rgba(255, 255, 255, 0.6);
 }
+.footer-adr:hover,
+.footer-adr:focus, 
+.footer-a:hover,
+.footer-a:focus {
+    color: #2196F3;
+}
 
 /*ПОРТФОЛІО*/
 
@@ -146,6 +157,10 @@ color: black;
 }
 
 /*ПОРТФОЛІО-Приклади робіт*/
+.example-li {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 .example-title {
     font-weight: 700;
     font-size: 18px;
