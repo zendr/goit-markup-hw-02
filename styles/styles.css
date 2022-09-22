@@ -1,8 +1,12 @@
 body {
-
+font-family: Roboto;
+color: black;
 }
 
 /*Верхня ліня*/
+.top {
+    background: #FFFFFF;
+}
 .logo {
     color:#2196F3;
     font-family: 'Raleway';
@@ -13,11 +17,143 @@ body {
 }
 .logo-black {
     color: black;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
+       
 }
 
+.top-nav,
+.top-adr {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .top-nav:hover{
+     color: #2196F3;
+ }
+.top-adr:hover {
+    color: #2196F3;
+}
 /*Шапка*/
+.solution {
+    background: #2F303A;
+}
+.solution-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.solution-button {
+    width: 216px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/*Особливості*/
+.features-title {
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.features-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+/*Чим ми займаємось*/
+.what-we-do-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+/*Наша команда*/
+.team {
+    background: #F5F4FA
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+/*Футер*/
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.footer-logow {
+    color: white;
+
+}
+.footer-adr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-a {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+/*ПОРТФОЛІО*/
+
+/*Портфоліо фільтр*/
+.filter-button {
+    width: 125px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
+}
+.filter-button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+/*ПОРТФОЛІО-Приклади робіт*/
+.example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.example-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
