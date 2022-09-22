@@ -159,6 +159,8 @@ color: black;
 
 /*ПОРТФОЛІО-Приклади робіт*/
 .example-li {
+    width: 370px;
+    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
