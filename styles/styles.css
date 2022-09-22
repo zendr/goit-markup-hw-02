@@ -151,7 +151,8 @@ color: black;
     text-align: center;
     color: #212121;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
     background: #2196F3;
     color: #FFFFFF;
 }
