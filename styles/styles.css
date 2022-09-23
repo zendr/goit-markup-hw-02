@@ -2,7 +2,15 @@ body {
 font-family: Roboto;
 color: black;
 }
-
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 /*Верхня ліня*/
 .top {
     background: #FFFFFF;
@@ -13,18 +21,25 @@ color: black;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
 }
 .logo-black {
     color: black;
        
 }
-
 .top-nav,
 .top-adr {
-    color: black;
     font-weight: 500;
     font-size: 14px;
+    letter-spacing: 0.02em;
+
+ }
+ .top-nav {
+    color: #212121;
+ }
+ .top-adr {
+    color: #757575;
  }
  .top-nav:hover,
  .top-nav:focus,
@@ -40,10 +55,11 @@ color: black;
 .solution-text {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4em;
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
-
 }
 .solution-button {
     width: 216px;
@@ -51,23 +67,32 @@ color: black;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    line-height: 30px;
     color: #FFFFFF;
 }
 
 /*Особливості*/
+.features-h {
+    display: none;
+}
 .features-title {
     width: 270px;
     height: 16px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .features-text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #757575;
 }
 
@@ -75,9 +100,9 @@ color: black;
 .what-we-do-text {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2em;
     text-align: center;
-}
+    }
 
 /*Наша команда*/
 .team {
@@ -86,18 +111,22 @@ color: black;
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 .team-member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 .team-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19em;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -121,22 +150,24 @@ color: black;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
 }
 .footer-logow {
     color: white;
 
 }
 .footer-adr {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    font-style: normal;
     color: #FFFFFF;
 }
 .footer-a {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+     font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-adr:hover,
@@ -147,9 +178,10 @@ color: black;
 }
 
 /*ПОРТФОЛІО*/
-
-/*Портфоліо фільтр*/
-.filter-button {
+.example-h {
+    display: none
+}
+.example-button {
     width: 125px;
     height: 38px;
     background: #F5F4FA;
@@ -157,16 +189,16 @@ color: black;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
     text-align: center;
     color: #212121;
 }
-.filter-button:hover,
-.filter-button:focus {
+.example-button:hover,
+.example-button:focus {
     background: #2196F3;
     color: #FFFFFF;
 }
-
-/*ПОРТФОЛІО-Приклади робіт*/
 .example-li {
     width: 370px;
     height: 404px;
@@ -176,11 +208,13 @@ color: black;
 .example-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
 .example-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.89em;
+    letter-spacing: 0.03em;
     color: #757575;
 }
